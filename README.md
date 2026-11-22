@@ -3,6 +3,12 @@
 An enhanced native port of California Dreams' *Street Rod* (1989). Not an emulator. The original game files are
 not included; the game is free from the copyright owner: https://www.streetrodonline.com/downloads/.
 
+## Graphics update scope
+
+This fork is the Street Rod 1 home for one-for-one graphics updates, including cars, parts, props, backgrounds, and other existing visuals. Replacement assets and renderer support preserve the stock gameplay, roster, locations, saves, and input behavior. Keep each asset’s native slot, placement, mask, draw order, and animation timing. Verify a replacement in the running game before including it in a release.
+
+The [Street Rod 2 Enhanced fork](https://github.com/Ghenghis/streetrod2-enhanced) is the matching graphics workstream for the sequel. The separate StreetRod-HD integration project combines the accepted work from both forks and owns new locations, races, and gameplay.
+
 ## Features
 
 * Smooth road view in races and drives through town, at your display's refresh rate.
